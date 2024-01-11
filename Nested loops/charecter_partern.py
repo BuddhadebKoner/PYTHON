@@ -15,6 +15,7 @@ a = int(input("Enter the number"))
 i = 1
 p = 65
 
+
 while (i<=a):
     j=1
     while(j<a):
