@@ -1,5 +1,3 @@
-import math
-
 # Take input the number which you want to show
 n = int(input('Enter number between 0 to 9: '))
 
