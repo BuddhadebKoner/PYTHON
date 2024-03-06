@@ -31,11 +31,11 @@ print("After clearing:", my_list)
 
 # Index of the first occurrence of an item in the list
 my_list = new_list
-if new_list:
+try:
     index = my_list.index(5)
     print("Index of 5:", index)
-else:
-    print("List is empty.")
+except ValueError:
+    print("Item 5 not found in the list.")
 
 # Count the number of occurrences of an item in the list
 if my_list:
@@ -59,3 +59,4 @@ print("After descending sorting:", my_list)
 # Shallow copy of the list
 copied_list = my_list.copy()
 print("Copied list:", copied_list)
+
