@@ -2,63 +2,56 @@ myDict = {
     'name': 'Buddhadeb',
     'age': 30,
     'city': 'New York',
-    'subjects': ["python","c++"] #tupple but not list
+    'subjects': ("python", "c++")  # Changed list to tuple
 }
-# dictionary is mutable
-#myDict['name'] = 23
+# Dictionary is mutable
+# myDict['name'] = 23
 
 print(myDict)
 
-Nulldec ={}
-print(Nulldec) # null dictioary
+nullDict = {}  # Changed Nulldec to nullDict and corrected spelling
+print(nullDict)  # null dictionary
 
-# nested dictionary ->
-
-student ={
-    'name' : 'rahul',
-    'roll' : 69,
-    'Marks': { # inner dictionary
-        'phy' : 97,
-        'math' : 20,
-        'c++' : 100
+# Nested dictionary ->
+student = {
+    'name': 'rahul',
+    'roll': 69,
+    'Marks': {  # Inner dictionary
+        'phy': 97,
+        'math': 20,
+        'c++': 100
     }
 }
 
 print(student['Marks'])
 
-
-# dictionary Methods -->
-
+# Dictionary Methods -->
 print(student.keys())
-print(list(student.keys())) # type casting list
+print(list(student.keys()))  # Type casting list
 
-# to find total number of keys 
+# To find the total number of keys
 print(len(student))
 
-# value methods 
+# Value methods
 print(list(student.values()))
 
-# item methods 
+# Item methods
 print(list(student.items()))
-# it will return items in tupple format
+# It will return items in tuple format
 
 pairs = list(student.items())
 print(pairs[1])
 
-# get methods -->
+# Get methods -->
+print(myDict['name'])  # Normal life
+# If wrong key return error
+print(myDict.get('name2'))  # Mentos life
+# Return None
 
-print(myDict['name']) # normal life
-# if wrong key return error
-print(myDict.get('name2')) # mentos life
-# return None
-
-#update methods -->
-newdect ={
-    'city':'bardhaman',
-    'age' : 20
+# Update methods -->
+newDict = {
+    'city': 'bardhaman',
+    'age': 20
 }
-student.update(
-    #{'city':'bardhaman'}
-    newdect
-    )
+student.update(newDict)
 print(student)
