@@ -49,3 +49,4 @@ set2 = {3, 4, 5}
 
 print(set1.union(set2))  # It will return new set 
 print(set1.intersection(set2))  # Common elements
+
