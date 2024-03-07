@@ -5,18 +5,18 @@ myDict = {
     'subjects': ("python", "c++")  # Changed list to tuple
 }
 # Dictionary is mutable
-# myDict['name'] = 23
+myDict['age'] = 23
 
 print(myDict)
 
-nullDict = {}  # Changed Nulldec to nullDict and corrected spelling
+nullDict = {}    # Changed Nulldec to nullDict and corrected spelling
 print(nullDict)  # null dictionary
 
 # Nested dictionary ->
 student = {
     'name': 'rahul',
     'roll': 69,
-    'Marks': {  # Inner dictionary
+    'Marks': {    # Inner dictionary
         'phy': 97,
         'math': 20,
         'c++': 100
@@ -50,8 +50,8 @@ print(myDict.get('name2'))  # Mentos life
 
 # Update methods -->
 newDict = {
-    'city': 'bardhaman',
-    'age': 20
+    'city' : 'bardhaman',
+    'age': 20 # here age is already have in the dicionary so this will be overwrite not create new key .
 }
 student.update(newDict)
 print(student)
