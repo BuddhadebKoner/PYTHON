@@ -25,7 +25,6 @@ print(str1[1:4])  # Output: his
 str5 = "Apple"
 print(str5[-5:-2])  # Output: App
 
-# Other string operations
 
 # Concatenation
 str1 = "Hello"
@@ -46,7 +45,7 @@ print("Substring:", substring)   # Output: lo W
 
 # Splitting
 words = my_string.split()
-print("Splitting:", words)  # Output: ['Hello', 'World']
+print("Splitting:", words)     # Output: ['Hello', 'World']
 
 # Joining
 my_string = ' '.join(words)
@@ -58,15 +57,15 @@ upper_case = my_string.upper()
 lower_case = my_string.lower()
 capitalized = my_string.capitalize()
 title_case = my_string.title()
-print("Upper Case:", upper_case)    # Output: HELLO WORLD
-print("Lower Case:", lower_case)    # Output: hello world
-print("Capitalized:", capitalized)   # Output: Hello world
-print("Title Case:", title_case)    # Output: Hello World
+print("Upper Case:", upper_case)              # Output: HELLO WORLD
+print("Lower Case:", lower_case)              # Output: hello world
+print("Capitalized:", capitalized)             # Output: Hello world
+print("Title Case:", title_case)              # Output: Hello World
 
 # Replacement
 new_string = my_string.replace("world", "Python")
-print("Replacement:", new_string)  # Output: hello Python
+print("Replacement:", new_string)                  # Output: hello Python
 
 # Checking Substring
 substring_check = "Hello" in my_string
-print("Substring Check:", substring_check)  # Output: True
+print("Substring Check:", substring_check)        # Output: True

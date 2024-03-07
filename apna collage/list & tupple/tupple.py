@@ -1,5 +1,6 @@
 # Create a tuple
 my_tuple = (1, 2, 3, 4, 5)
+print(type(my_tuple))
 
 # Access an element by index
 element = my_tuple[2]

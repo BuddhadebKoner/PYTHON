@@ -23,19 +23,17 @@ popped_item = my_list.pop(2)  # One argument: index of the list
 
 print("Popped item:", popped_item)
 print("After popping:", my_list)
-new_list = my_list
 
-# Clear all items from the list
-my_list.clear()
-print("After clearing:", my_list)
 
 # Index of the first occurrence of an item in the list
-my_list = new_list
-try:
-    index = my_list.index(5)
-    print("Index of 5:", index)
-except ValueError:
-    print("Item 5 not found in the list.")
+
+index = my_list.index(5)
+print("Index of 5:", index)
+
+
+# Clear all items from the list
+#my_list.clear()
+#print("After clearing:", my_list)
 
 # Count the number of occurrences of an item in the list
 if my_list:
