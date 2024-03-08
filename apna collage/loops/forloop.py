@@ -11,7 +11,7 @@
 # Example:
 Mytuple = (1, 3, 5, 6, 8, 9, 10)
 
-# Iterating over the tuple
+# Iterating over the tuple, linier search
 for el in Mytuple:  # 'el' is the loop variable that takes each element of 'Mytuple' in each iteration
     if el == 10:
         print('10 is present in the tuple')
@@ -24,3 +24,9 @@ for el in Mytuple:  # 'el' is the loop variable that takes each element of 'Mytu
 # - If the condition is met, it prints a message indicating that 10 is present in the tuple.
 # - The 'break' statement is used to exit the loop immediately once the condition is satisfied.
 # - Without the 'break', the loop would continue iterating over the remaining elements of the tuple, which is unnecessary once the target element is found.
+
+# pass statement
+for i in range(10):
+    #empty placeholder for future code
+    pass
+
