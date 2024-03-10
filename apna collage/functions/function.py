@@ -7,3 +7,5 @@ def calSum(a,b): # a and b are paramiter
 
 calSum(10,20) # Function call have 2 argument
 calSum(100,200) # here 100 and 200 are argument
+
+
