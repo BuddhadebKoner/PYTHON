@@ -1,30 +1,31 @@
-'''All classes have a fuction called _init_(), which is always executed when the class is being initiated'''
-
+# Car class
 class Car:
+    # Class attribute
     model = "Royal Enfield" 
+    
+    # Constructor method (called when an object of the class is created)
     def __init__(self):
         print(self) # self is the new object which is created s1
-        print("This is in the init fumction")
+        print("This is in the init function")
 
+# Creating an object of Car class
 s1 = Car()
-'''you can see _init_() function is exicuted just after calling Car()'''
+'''you can see _init_() function is executed just after calling Car()'''
 
-
-# dog.py
-
+# Dog class
 class Dog:
-    
-    # this is default constracture 
-    def __int__(self):
+    # Default constructor
+    def __init__(self):
         pass
     
-    # this is paramiterised constracter
-    def __init__(self, name, age): # commonly we use self ,variable name would be anything [slef paramiter is the reference] 
-        self.name = name # here name age is the attribute value
-        self.age = age
+    # Parameterized constructor
+    def __init__(self, name, age): # commonly we use self, variable name would be anything [self parameter is the reference] 
+        self.name = name # assigning name to the instance variable
+        self.age = age   # assigning age to the instance variable
 
-d1 = Dog("Moti",10)    
-d2 = Dog("Tomy",7)
+# Creating Dog objects
+d1 = Dog("Moti", 10)    
+d2 = Dog("Tomy", 7)
 
-print(d1.name,d1.age,d2.name,d2.age) # it will print Moti
-
+# Printing attributes of Dog objects
+print(d1.name, d1.age, d2.name, d2.age) 
