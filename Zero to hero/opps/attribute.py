@@ -1,8 +1,7 @@
 
 ''' wchich will be common that will be a class attribute 
-'''
 
-'''
+
 for example i have student class , there collage name is same for every student so i will not store the collage name again and again , one time i will declear it in the class atribute 
 '''
 
