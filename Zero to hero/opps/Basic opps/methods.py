@@ -38,3 +38,21 @@ s1.get_avg()
 
 # STATIC METHODS -->
 
+'''
+Methods Are dont use self parameter(work at class lavel not obj lavel) 
+'''
+
+class Car:
+    
+    @staticmethod # decorater which is contvert to a static methods 
+    # "decoratera" allow to wrap another function in order to extended the behaviour of warpped function , without permentaly modifying it
+    def print_hello():
+        print("hello")
+    
+    
+    def __init__(self, make, model, year):
+        self.make = make
+        self.model = model
+        self.year = year
+        
+        
