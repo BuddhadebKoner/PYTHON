@@ -1,2 +1,3 @@
 F = [37, 19, 55, 76, 21, 47, 31]
-print(F.sort())
+F.sort()
+print(F)
