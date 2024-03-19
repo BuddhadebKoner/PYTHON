@@ -12,7 +12,3 @@ for file in Path('.').glob('image.png'):  # Assuming file is in the current dire
             input_data = i.read()
             output_data = remove(input_data, session=session)
             o.write(output_data)
-            
-print("Input Path:", input_path)
-print("Output Path:", output_path)
-
